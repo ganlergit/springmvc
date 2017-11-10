@@ -15,7 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.ganler</groupId>
+                <artifactId>api</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
   <build>
-    <finalName>webapp</finalName>
+    <finalName>   webapp</finalName>
   </build>
 </project>
